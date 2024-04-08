@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+	}
+
+	:root {
+		/* Colors */
+		--background: hsl(0, 24%, 96%);
+		--foreground: hsl(216, 28%, 7%);
+		--secondary: #4f576c;
+		--border: transparent;
+		--nav-link-highlight: rgb(255, 255, 255);
+		--nav-link-bg: rgba(0, 0, 0, 0.04);
+		--opaque: rgba(0, 0, 0, 0.094);
+
+		/* Shadows */
+		--link: rgb(0, 0, 0, 0.08) 0px 0px 0px 2px;
+		--link-hover: rgb(0, 0, 0, 0.01) 0px 0px 0px 5px, rgb(0, 0, 0, 0.05) 0px 0px 0px 4px;
+		--expand: rgb(255, 255, 255) 0px 0px 0px 1px, rgba(255, 255, 255, 0.5) 0px 0px 0px 6px;
+    --shadow-lg: 0px 50px 100px -20px rgba(0, 0, 0, .15);
+
+		/* Sizes */
+		--logo: 35px;
+
+		/* Fonts size */
+		--font-h1: clamp(3.3rem, .5692rem + 7.238vw, 11.75rem);
+    --font-h2: clamp(1.5rem, 1.0982rem + 1.7143vw, 2.8125rem);
+    --font-h3: clamp(1.375rem, 1.1837rem + .8163vw, 2rem);
+    --font-h4: clamp(1.375rem, 1.1837rem + .8163vw, 1.6rem);
+    --font-h5: clamp(1rem, .9235rem + .3265vw, 1.25rem);
+    --font-h6: clamp(1rem, .9617rem + .1633vw, 1.125rem);
+    --font-body: clamp(1rem, .8852rem + .4898vw, 1.375rem);
+    --font-content: clamp(1rem, .8852rem + .4898vw, 1.075rem);
+    --font-link: clamp(.875rem, .7985rem + .3265vw, 1.125rem);
+    --font-mini: clamp(.875rem, .8367rem + .1633vw, 1rem);
+    --font-h2-display: clamp(1.875rem, 1.301rem + 2.449vw, 3.95rem);
+
+
+		/* Sizes */
+		--14px: .875rem;
+    --15px: .9375rem;
+    --16px: 1rem;
+    --17px: 1.0625rem;
+    --18px: 1.125rem;
+    --19px: 1.1875rem;
+    --20px: 1.25rem;
+    --21px: 1.3125rem;
+    --24px: 1.5rem;
+    --42px: 2.652rem;
+    --64px: 4rem;
+
+		/* Spacings */
+    --spacing-xxl: max( 130px, calc(130px + (260 - 130) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-xl: max( var(--64px), calc(var(--64px) + (128 - 64) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-l: max( var(--42px), calc(var(--42px) + (84 - 42) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-m: max( var(--24px), calc(var(--24px) + (48 - 24) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-s: max( var(--21px), calc(var(--21px) + (42 - 21) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-xs: max( var(--14px), calc(var(--14px) + (28 - 14) * ((100vw - 375px) / (1600 - 375))) );
+    --spacing-xxs: max( calc(var(--14px) / 2), calc((var(--14px) / 2) + (14 - 7) * ((100vw - 375px) / (1600 - 375))) );
+
+		/* Width */
+    --max-width: 1600px;
+
+		/* Transitions */
+    --transition-bounce: cubic-bezier(.175,.885,.32,1.275);
+		--custom-ease: cubic-bezier(0.6, 0.05, -0.01, 0.9);
+    --transition-ease: ease-in-out;
+
+		/* Z Index */
+    --zindex-base: 1;
+    --zindex-2: 2;
+    --zindex-content-lower-2: 40;
+    --zindex-content-lower-1: 45;
+    --zindex-content: 50;
+    --zindex-top: 100;
+    --zindex-nav: 1000;
+    --zindex-nav-menu: 1010;
+    --zindex-modal: 2000;
+
+		/* Radius */
+    --radius-base: .75rem;
+	}
+
+	[data-theme='dark'] {
+		/* Colors */ 
+		--background: hsl(214, 28%, 5%);
+		--foreground: hsl(0, 0%, 83%);
+		--secondary: #98a1b6;
+		--border: rgb(48, 54, 61);
+		--nav-link-highlight: rgb(33, 38, 45);
+		--nav-link-bg: hsla(216, 24%, 8%, 0.6);
+
+		/* Shadows */
+		--link: rgb(48, 54, 61) 0px 0px 0px 2px;
+		--link-hover: rgb(48, 54, 61) 0px 0px 0px 5px;
+
+		/* Spacings */
+		--top-navbar-height: 136px;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    font-weight: 700;
+	}
+
+	h1 {
+		display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+	h1 {
+		@apply text-h1 text-center leading-[100%] -tracking-[2px]
+	}
+
+	@keyframes scaleUp {
+		from {
+			transform: scale(0.5);
+		}
+    to {
+      transform: scale(1);
+    }
+  }
+}
+
+.contact {
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+}
+
+.contact::before {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background: var(--foreground);
+	top: 100%;
+	left: 0;
+	pointer-events: none;
+	content: '';
+	transform-origin: 100% 50%;
+	transform: scale3d(0, 1, 1);
+	transition: transform 0.3s;
+}
+
+.contact:hover::before {
+	transform-origin: 0% 50%;
+	transform: scale3d(1, 1, 1);
+}
+
+@media (max-width: 600px) {
+	.contact {
+		position: fixed;
+		bottom: 30px;
+		right: 30px;
+	}
+}
