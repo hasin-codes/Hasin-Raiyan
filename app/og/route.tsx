@@ -43,7 +43,7 @@ export async function GET(req: NextRequest) {
 						color: 'white',
 						lineHeight: '120px',
 					}}>
-					nitinp.dev
+					hasin.vercel.app
 				</h1>
 				<div
 					style={{

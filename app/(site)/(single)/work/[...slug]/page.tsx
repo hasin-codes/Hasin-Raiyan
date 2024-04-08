@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const ogImage = getOgImage(title, overview, {
 		openGraph: {
 			type: 'article',
-			url: `https://nitinp.dev/note/${slug}`,
+			url: `https://hasin.vercel.app/note/${slug}`,
 		},
 	})
 

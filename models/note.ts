@@ -23,9 +23,9 @@ const computedFields: ComputedFields<'Note'> = {
 			dateModified: doc.publishedAt,
 			description: doc.summary,
 			image: doc.image
-				? `https://nitinp.dev/${doc.image}`
-				: `https://nitinp.dev/og?title=${doc.title}`,
-			url: `https://nitinp.dev/note/${doc._raw.flattenedPath}`,
+				? `https://hasin.vercel.app/${doc.image}`
+				: `https://hasin.vercel.app/og?title=${doc.title}`,
+			url: `https://hasin.vercel.app/note/${doc._raw.flattenedPath}`,
 			author: {
 				'@type': 'Person',
 				name: 'Hasin Raiyan',

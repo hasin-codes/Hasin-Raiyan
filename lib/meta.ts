@@ -3,11 +3,11 @@ import { IsDev } from './env'
 
 const title = `Hasin Raiyan`
 const description = `Fullstack Frontend Developer & Designer from India`
-const domain = `nitinp.dev`
+const domain = `hasin.vercel.app`
 const twitter = `@nitinpanwarr`
 const meta = `Frontend Developer`
 const site = `https://${domain}`
-const ogUrl = IsDev ? 'http://localhost:3000' : 'https://nitinp.dev'
+const ogUrl = IsDev ? 'http://localhost:3000' : 'https://hasin.vercel.app'
 export const keywords = [
 	'Nitin',
 	'Hasin Raiyan',
@@ -59,7 +59,7 @@ export const seo: Metadata = {
 	title: title + ' — ' + meta,
 	description,
 	...getOgImage(title + ' — ' + meta, description),
-	metadataBase: new URL('https://nitinp.dev'),
+	metadataBase: new URL('https://hasin.vercel.app'),
 	icons: {
 		icon: '/favicon.ico',
 	},

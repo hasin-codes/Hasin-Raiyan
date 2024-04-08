@@ -1,9 +1,9 @@
 {
 	"type": "Project",
-	"cover": "/images/projects/zaars/zaars.webp",
-	"title": "Zaars",
-	"slug": "zaars",
-	"role": "Lead Developer",
+	"cover": "/images/projects/Spotify-mini/Spotify-mini.webp",
+	"title": "Spotify-mini",
+	"slug": "Spotify-mini",
+	"role": "UI Designer",
 	"links": [
 		{
 			"name": "Web",

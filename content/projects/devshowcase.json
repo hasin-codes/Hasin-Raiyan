@@ -1,18 +1,22 @@
 {
 	"type": "Project",
-	"cover": "/images/projects/poly/poly.webp",
-	"title": "Instagram for Vision OS",
-	"slug": "insta",
-	"role": "UI Designer",
+	"cover": "/images/projects/Devshowcase/Devshowcase.webp",
+	"title": "Devshowcase",
+	"slug": "Devshowcase-Desktop",
+	"role": "Full Stack Developer",
 	"links": [
 		{
 			"name": "Github",
-			"href": "https://github.com/Hasintf/poly-client"
+			"href": "https://github.com/hasin-codes/DevShowcase"
+		},
+		{
+			"name": "Website",
+			"href": "https://devshowcase-desktop.vercel.app"
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "Stop Explaining Your Code. Start Showing It Off.",
 	"content": [
-		"Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams. Built with a tech stack including React, GraphQL, Apollo, Tailwind, and Vite on the frontend, and NestJs, PostgreSQL, Prisma, GraphQL, and Resend on the backend, Poly offers a comprehensive suite of features that enable teams to manage tasks, share resources, and communicate seamlessly. With a user-friendly interface and real-time updates, Poly ensures that teams can stay on top of their projects without any hassle.",
-		"Poly streamlines task tracking for teams. It enables easy assignment, prioritization, and progress monitoring. It fosters collaboration with a centralized workspace and intuitive interface. Its advanced tech stack ensures a reliable user experience."
+		"Stop Explaining Your Code. Start Showing It Off.  Tired of writing lengthy code explanations?  My first full-stack project, DevShowcase, is here to change that! Instantly turn your code into polished images with customizable backgrounds, language-specific syntax highlighting, PNG export, and selectable themes like Monokai.",
+		"Why DevShowcase (built with Next.js)? Showcase your projects with style, simplify code teaching, and boost collaboration with visually enhanced code presentation.  Ready to make your code shine? I'm eager for your feedback on DevShowcase!."
 	]
 }

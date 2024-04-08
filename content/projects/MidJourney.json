@@ -1,19 +1,20 @@
 {
 	"type": "Project",
-	"cover": "/images/projects/task/task.webp",
-	"title": "Task Manager",
-	"slug": "task-manager",
-	"role": "App Developer",
+	"cover": "/images/projects/MidJourney/MidJourney.webp",
+	"title": "MidJourney UI Design",
+	"slug": "MidJourney-ui",
+	"role": "UI Design",
 	"links": [
 		{
-			"name": "Github",
-			"href": "https://github.com/Hasintf/poly"
+			"name": "Behance",
+			"href": "https://www.behance.net/gallery/187395911/Midjourney-AI-Concept-UI"
 		}
 	],
-	"overview": "Poly Task Manager allows easy task management on iOS and Android. Create, edit, and complete tasks on your mobile device.",
+	"overview": "Goodbye Boring Discord: My Midjourney AI Concept Redesign",
 	"content": [
-		"Poly Task Manager, built with a frontend tech stack of React Native, Expo, and MobX, and a backend powered by Supabase, is a robust and intuitive task management application. It empowers users to manage their tasks with utmost ease and efficiency, regardless of the platform they are on - be it iOS or Android.",
+		"Let's be honest Discord's interface, while functional, can feel a bit...stale. It gets the job done, but wouldn't it be awesome to inject some creative energy into our daily chats? That's where my Midjourney AI concept redesign comes in!",
 
-		"Poly Task Manager streamlines task management, allowing task creation, editing, and completion from your mobile device, whether you're at home, work, or on the go. It also offers efficient organization with workspaces, powered by Supabase, for grouping tasks based on projects, teams, or custom categories to suit your workflow."
+		"Midjourney AI's image generation magic inspired a visual overhaul for Discord. Imagine customizable server backgrounds and AI-generated pics!  Visual conversation representations based on chat topics and tone add a layer of creativity to Discord. Let me know what you think! Would you use a visually reimagined Discord powered by tools like Midjourney AI?"
 	]
 }
+

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		openGraph: {
 			type: 'article',
 			publishedTime,
-			url: `https://nitinp.dev/note/${slug}`,
+			url: `https://hasin.vercel.app/note/${slug}`,
 		},
 	})
 
