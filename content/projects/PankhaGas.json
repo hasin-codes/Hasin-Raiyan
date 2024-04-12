@@ -1,0 +1,19 @@
+{
+	"type": "Project",
+	"cover": "/images/projects/PankhaGas/PankhaGas.webp",
+	"title": "PankhaGas",
+	"slug": "PankhaGas",
+	"role": "Full Stack Developer",
+	"links": [
+		
+		{
+			"name": "Website",
+			"href": "https://pankhagas.com"
+		}
+	],
+	"overview": "Stop Explaining Your Code. Start Showing It Off.",
+	"content": [
+		"Stop Explaining Your Code. Start Showing It Off.  Tired of writing lengthy code explanations?  My first full-stack project, DevShowcase, is here to change that! Instantly turn your code into polished images with customizable backgrounds, language-specific syntax highlighting, PNG export, and selectable themes like Monokai.",
+		"Why DevShowcase (built with Next.js)? Showcase your projects with style, simplify code teaching, and boost collaboration with visually enhanced code presentation.  Ready to make your code shine? I'm eager for your feedback on DevShowcase!."
+	]
+}
