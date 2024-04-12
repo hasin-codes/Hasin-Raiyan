@@ -4,12 +4,11 @@ import { IsDev } from './env'
 const title = `Hasin Raiyan`
 const description = `Fullstack Frontend Developer & Designer from India`
 const domain = `hasin.vercel.app`
-const twitter = `@nitinpanwarr`
 const meta = `Frontend Developer`
 const site = `https://${domain}`
 const ogUrl = IsDev ? 'http://localhost:3000' : 'https://hasin.vercel.app'
 export const keywords = [
-	'Nitin',
+	'hasin',
 	'Hasin Raiyan',
 	'Frontend Developer',
 	'UI Designer',
