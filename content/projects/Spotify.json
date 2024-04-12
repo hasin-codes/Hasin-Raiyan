@@ -6,14 +6,12 @@
 	"role": "UI Designer",
 	"links": [
 		{
-			"name": "Web",
-			"href": "https://zaars.co"
+			"name": "Behance",
+			"href": "https://www.behance.net/gallery/191044757/Reimagined-the-Spotify-UI"
 		}
 	],
-	"overview": "Zaars is a dynamic multivendor ecommerce platform, for showcasing and selling diverse ethnic fashion.",
+	"overview": "I took on the challenge of redesigning the Spotify mobile app using Adobe XD.  While staying true to Spotify's familiar color scheme, I aimed to give the interface a cleaner, more modern look. My focus was on sharpening the user experience (UX), making key features more intuitive and navigation a breeze.",
 	"content": [
-		"Zaars is a vibrant and dynamic multivendor ecommerce platform that celebrates diversity in ethnic fashion. Built on WordPress and powered by PHP, Zaars provides a unique marketplace where individuals can sign up, become sellers, and showcase a stunning array of both new and preused ethnic wears, Zaars is your one-stop destination for all things ethnic and fashionable.",
-
-		"Zaars provides a comprehensive ecommerce experience with real-time order tracking, secure payments, and a user-friendly interface."
+		"This project was all about balancing the iconic Spotify look with fresh design elements. Small tweaks to the layout, iconography, and menu structure can make a big difference in how smoothly users move through the app. The result is a streamlined Spotify experience that maintains the brand's identity while offering a touch of visual and functional refinement."
 	]
 }

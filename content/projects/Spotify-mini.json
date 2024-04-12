@@ -6,14 +6,12 @@
 	"role": "UI Designer",
 	"links": [
 		{
-			"name": "Web",
-			"href": "https://zaars.co"
+			"name": "Instagram Post Link",
+			"href": "https://www.instagram.com/p/C3aeBENPB9p/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
 		}
 	],
-	"overview": "Zaars is a dynamic multivendor ecommerce platform, for showcasing and selling diverse ethnic fashion.",
+	"overview": "I dove into the world of UI design by creating a new look for the Spotify widget. Using Adobe XD, I focused on a clean and visually appealing aesthetic that complements the Spotify brand. My goal was to enhance the user experience (UX) by refining how information is displayed and making controls more intuitive..",
 	"content": [
-		"Zaars is a vibrant and dynamic multivendor ecommerce platform that celebrates diversity in ethnic fashion. Built on WordPress and powered by PHP, Zaars provides a unique marketplace where individuals can sign up, become sellers, and showcase a stunning array of both new and preused ethnic wears, Zaars is your one-stop destination for all things ethnic and fashionable.",
-
-		"Zaars provides a comprehensive ecommerce experience with real-time order tracking, secure payments, and a user-friendly interface."
+		"Even small UI elements have a significant effect on how users interact with an app.  This project honed my skills in creating a compact yet functional design. The redesigned widget aims to provide a seamless and enjoyable Spotify experience right on the user's home screen."
 	]
 }

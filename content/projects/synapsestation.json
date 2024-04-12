@@ -1,18 +1,22 @@
 {
 	"type": "Project",
 	"cover": "/images/projects/synapsestation/synapsestation.webp",
-	"title": "Instagram for Vision OS",
-	"slug": "insta",
-	"role": "UI Designer",
+	"title": "Synapsestation ",
+	"slug": "synapsestation",
+	"role": "Full Stack Developer",
 	"links": [
 		{
 			"name": "Github",
-			"href": "https://github.com/Hasintf/poly-client"
+			"href": "https://github.com/hasin-codes/Synapse-Station"
+		},
+		{
+			"name": "Website",
+			"href": "https://synapsestation.vercel.app/"
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "SynapseStation is my most ambitious project to date, a labor of love built on Next.js. This groundbreaking AI application harnesses the power of models like ChatGPT to transform into any character you can imagine. Need a songwriting partner who channels the spirit of Taylor Swift? A virtual math tutor with infinite patience? SynapseStation adapts and delivers.",
 	"content": [
-		"Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams. Built with a tech stack including React, GraphQL, Apollo, Tailwind, and Vite on the frontend, and NestJs, PostgreSQL, Prisma, GraphQL, and Resend on the backend, Poly offers a comprehensive suite of features that enable teams to manage tasks, share resources, and communicate seamlessly. With a user-friendly interface and real-time updates, Poly ensures that teams can stay on top of their projects without any hassle.",
-		"Poly streamlines task tracking for teams. It enables easy assignment, prioritization, and progress monitoring. It fosters collaboration with a centralized workspace and intuitive interface. Its advanced tech stack ensures a reliable user experience."
+		"With just a few words and some reference material, SynapseStation becomes the character you envision.  It will analyze the input, learn the nuances, and tailor its responses to match the desired personality.  This isn't just a chatbot; it's an immersive collaboration with an AI that morphs to suit your needs.",
+		"SynapseStation is the culmination of countless hours of coding, tweaking, and pushing the boundaries of AI-powered interaction. The potential of this project is immense. It could revolutionize education, content creation, and even how we connect with technology. I'm incredibly proud of what I've built so far, and I can't wait to see where SynapseStation goes next!3"
 	]
 }

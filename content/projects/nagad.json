@@ -6,13 +6,13 @@
 	"role": "UI Designer",
 	"links": [
 		{
-			"name": "Web",
-			"href": "https://zaars.co"
+			"name": "Behance",
+			"href": "https://www.behance.net/gallery/188094147/Re-Skining-Nagad-with-Glassmorphism"
 		}
 	],
-	"overview": "Zaars is a dynamic multivendor ecommerce platform, for showcasing and selling diverse ethnic fashion.",
+	"overview": "I took a shot at redesigning the user interface (UI) for Nagad, a popular Bangladeshi mobile financial service. Inspired by the glassmorphism trend, I focused on creating a visually stunning and contemporary look. My goal was to elevate the app's visual appeal while maintaining a clean and intuitive user experience.",
 	"content": [
-		"Zaars is a vibrant and dynamic multivendor ecommerce platform that celebrates diversity in ethnic fashion. Built on WordPress and powered by PHP, Zaars provides a unique marketplace where individuals can sign up, become sellers, and showcase a stunning array of both new and preused ethnic wears, Zaars is your one-stop destination for all things ethnic and fashionable.",
+		"The redesign features the frosted-glass effect of glassmorphism, paired with soft gradients and vibrant colors for a modern feel.  Careful attention was paid to layout and button placement to ensure that the beauty of the design didn't compromise usability.  The result is a Nagad UI that feels both fresh and familiar, making financial tasks more engaging for users.",
 
 		"Zaars provides a comprehensive ecommerce experience with real-time order tracking, secure payments, and a user-friendly interface."
 	]

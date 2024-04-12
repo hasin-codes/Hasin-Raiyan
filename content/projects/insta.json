@@ -6,13 +6,12 @@
 	"role": "UI Designer",
 	"links": [
 		{
-			"name": "Github",
-			"href": "https://github.com/Hasintf/poly-client"
+			"name": "Behance",
+			"href": "https://www.behance.net/gallery/191593617/My-Concept-for-the-Future-of-Instagram"
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "What if you could use Instagram while exploring a virtual world? That was the idea that sparked my UI design project for the Apple Vision Pro VR headset. Using Adobe XD, I set out to create a version of Instagram that feels like it's built right into the VR experience.  Think transparent menus, easy navigation, and the ability to see your feed without losing sight of your surroundings.",
 	"content": [
-		"Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams. Built with a tech stack including React, GraphQL, Apollo, Tailwind, and Vite on the frontend, and NestJs, PostgreSQL, Prisma, GraphQL, and Resend on the backend, Poly offers a comprehensive suite of features that enable teams to manage tasks, share resources, and communicate seamlessly. With a user-friendly interface and real-time updates, Poly ensures that teams can stay on top of their projects without any hassle.",
-		"Poly streamlines task tracking for teams. It enables easy assignment, prioritization, and progress monitoring. It fosters collaboration with a centralized workspace and intuitive interface. Its advanced tech stack ensures a reliable user experience."
+		"Designing for VR is a whole new ballgame! Forget about tapping a screen – I had to make the interface work with how people naturally move and interact within a virtual space.  The goal was to make Instagram feel like a seamless part of your VR world, not something that takes you out of the experience. This project was a super fun way to push the boundaries of UI design and I'm excited to see where VR takes social media in the future!"
 	]
 }

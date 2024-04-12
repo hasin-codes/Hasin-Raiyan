@@ -16,9 +16,9 @@
 			
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "ZeusConnect is a powerful web conferencing platform designed to surpass the limitations of traditional video calling tools. With superior video and audio quality, seamless screen sharing, intuitive controls, and robust security features, ZeusConnect empowers individuals and teams to connect, collaborate, and learn online like never before.",
+
 	"content": [
-		"ZeusConnect is a powerful web conferencing platform designed to surpass the limitations of traditional video calling tools. With superior video and audio quality, seamless screen sharing, intuitive controls, and robust security features, ZeusConnect empowers individuals and teams to connect, collaborate, and learn online like never before.",
-		"ZeusConnect elevates online meetings with effortless setup, crystal-clear communication, and seamless collaboration tools. Experience features like screen sharing, co-editing, and brainstorming within a secure, reliable platform. Customizable controls empower you to manage participants and layouts, while future-proof scheduling and flexible access from any device ensure you're always connected. ZeusConnect offers secure authentication (powered by Clerk), including social sign-on options or traditional login. To get started, simply visit the ZeusConnect website [insert website link], create a free account, and start your first meeting or join one using a shared link. Built using React, ZeusConnect welcomes open-source contributions check out our GitHub repository."
+			"ZeusConnect elevates online meetings with effortless setup, crystal-clear communication, and seamless collaboration tools. Experience features like screen sharing, co-editing, and brainstorming within a secure, reliable platform. Customizable controls empower you to manage participants and layouts, while future-proof scheduling and flexible access from any device ensure you're always connected. ZeusConnect offers secure authentication (powered by Clerk), including social sign-on options or traditional login. To get started, simply visit the ZeusConnect website [insert website link], create a free account, and start your first meeting or join one using a shared link. Built using React, ZeusConnect welcomes open-source contributions check out our GitHub repository."
 	]
 }

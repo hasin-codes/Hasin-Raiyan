@@ -1,18 +1,21 @@
 {
 	"type": "Project",
 	"cover": "/images/projects/rcpitc/rcpitc.webp",
-	"title": "Instagram for Vision OS",
-	"slug": "insta",
-	"role": "UI Designer",
+	"title": "RCPITC Website",
+	"slug": "rcpitc",
+	"role": "Full Stack Developer",
 	"links": [
 		{
 			"name": "Github",
-			"href": "https://github.com/Hasintf/poly-client"
+			"href": "https://github.com/hasin-codes/RCPITC"
+		},
+		{
+			"name": "Website",
+			"href": "https://rcpitc.vercel.app"
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "My dream of sharing my skills is taking shape through my role as a founder at RCPITC (Rajshahi Cantonment Public IT Club). I'm thrilled to be part of creating a space where knowledge and passion for technology can thrive!  To kick things off, I designed the club's website using Next.js. My priority was to make a truly eye-catching design that grabs attention and sets the tone for the club's focus on innovation.",
 	"content": [
-		"Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams. Built with a tech stack including React, GraphQL, Apollo, Tailwind, and Vite on the frontend, and NestJs, PostgreSQL, Prisma, GraphQL, and Resend on the backend, Poly offers a comprehensive suite of features that enable teams to manage tasks, share resources, and communicate seamlessly. With a user-friendly interface and real-time updates, Poly ensures that teams can stay on top of their projects without any hassle.",
-		"Poly streamlines task tracking for teams. It enables easy assignment, prioritization, and progress monitoring. It fosters collaboration with a centralized workspace and intuitive interface. Its advanced tech stack ensures a reliable user experience."
+		"Building this website is more than just a project – it's a step towards fulfilling my dream of mentoring and inspiring others in the world of technology.  The visually stunning website is a testament to the club's commitment to excellence and is sure to inspire new members to dive into the exciting world of tech. I'm immensely proud to be part of making this dream a reality!"
 	]
 }

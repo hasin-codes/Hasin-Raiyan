@@ -7,12 +7,15 @@
 	"links": [
 		{
 			"name": "Github",
-			"href": "https://github.com/Hasintf/poly-client"
+			"href": "https://github.com/hasin-codes/mahmudvisuals"
+		},
+		{
+			"name": "Website",
+			"href": "https://mahmud-visuals.vercel.app"
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "Mahmud is an incredible graphic designer, and I was honored to build his online portfolio website.  Using HTML and CSS, I focused on creating a clean and visually striking platform to showcase his work.  The goal was to let Mahmud's designs shine, with a website that complements his style and makes a lasting impression.",
 	"content": [
-		"Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams. Built with a tech stack including React, GraphQL, Apollo, Tailwind, and Vite on the frontend, and NestJs, PostgreSQL, Prisma, GraphQL, and Resend on the backend, Poly offers a comprehensive suite of features that enable teams to manage tasks, share resources, and communicate seamlessly. With a user-friendly interface and real-time updates, Poly ensures that teams can stay on top of their projects without any hassle.",
-		"Poly streamlines task tracking for teams. It enables easy assignment, prioritization, and progress monitoring. It fosters collaboration with a centralized workspace and intuitive interface. Its advanced tech stack ensures a reliable user experience."
+		"Working with Mahmud was fantastic. His keen eye for design made it easy to translate his vision into a website that's both beautiful and functional.  Clean lines and thoughtful use of space allow visitors to fully appreciate his portfolio pieces. This project was a great reminder of how web development can enhance the work of talented artists and designers!"
 	]
 }

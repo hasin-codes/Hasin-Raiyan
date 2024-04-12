@@ -7,12 +7,15 @@
 	"links": [
 		{
 			"name": "Github",
-			"href": "https://github.com/Hasintf/poly-client"
+			"href": "https://github.com/hasin-codes/F1RST-GEAR-BLOG"
+		},
+		{
+			"name": "Website",
+			"href": "https://f1rst-gear-blog.vercel.app"
 		}
 	],
-	"overview": "Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams.",
+	"overview": "I'm the founder, CEO, and head strategist at F1RST GEAR. I also helped design our new F-commerce blog! We wanted it to be super simple and easy to read. So, we built it using HTML and only upload our very best content.  The goal is a clean space where we can share ideas, updates, and helpful stuff that goes along with our store.",
 	"content": [
-		"Poly is a robust project management tool designed to streamline collaboration and enhance efficiency within teams. Built with a tech stack including React, GraphQL, Apollo, Tailwind, and Vite on the frontend, and NestJs, PostgreSQL, Prisma, GraphQL, and Resend on the backend, Poly offers a comprehensive suite of features that enable teams to manage tasks, share resources, and communicate seamlessly. With a user-friendly interface and real-time updates, Poly ensures that teams can stay on top of their projects without any hassle.",
-		"Poly streamlines task tracking for teams. It enables easy assignment, prioritization, and progress monitoring. It fosters collaboration with a centralized workspace and intuitive interface. Its advanced tech stack ensures a reliable user experience."
+		"Sometimes, the simplest way is the best way – that's why we love our HTML blog. It keeps us focused on sharing only what's truly important to our customers. The design puts the spotlight on the content, not a lot of flashy extras. Our blog is meant to add value to our F-commerce store, not steal the show. If you're looking for a straightforward way to connect with your customers, consider a simple HTML blog!"
 	]
 }
