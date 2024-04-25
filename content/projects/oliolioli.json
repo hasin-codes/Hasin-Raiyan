@@ -1,0 +1,17 @@
+{
+	"type": "Project",
+	"cover": "/images/projects/oliolioli/oliolioli.webp",
+	"title": "Tribute To Oli",
+	"slug": "grazie-oli",
+	"role": "Graphic Designer",
+	"links": [
+				{
+			"name": "Behance",
+			"href": "https://www.behance.net/gallery/197052999/A-Digital-Tribute-to-Olivier-Giroud"
+		}
+	],
+	"overview": "My Artistic tribute to Olivier Giroud – The Rossoneri's Cherished Striker",
+	"content": [
+		"As a UI Designer and a fervent supporter of AC Milan, I've crafted a poster that encapsulates the essence of gratitude and admiration for Olivier Giroud. His departure from our beloved club is not just a transfer; it's the end of an era that he illuminated with his presence on and off the field. This artwork is more than just a design; it's a narrative of passion, dedication, and the indelible mark Giroud has left on the hearts of the Rossoneri. His legacy at AC Milan is etched in every stroke and color of this tribute."
+	]
+}
