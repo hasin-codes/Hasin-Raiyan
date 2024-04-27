@@ -7,7 +7,7 @@ const domain = `hasin.vercel.app`
 const twitter = `@hasin_codes`
 const meta = `Frontend Developer`
 const site = `https://${domain}`
-const ogUrl = IsDev ? 'http://localhost:3000' : 'https://hasin.vercel.app'
+const ogUrl = IsDev ? 'https://hasin.vercel.app' : 'https://hasin.vercel.app'
 export const keywords = [
 	'hasin',
 	'Hasin Raiyan',

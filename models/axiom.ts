@@ -1,12 +1,12 @@
 import { Document } from 'contentlayer/core'
 import { ComputedFields, defineDocumentType } from 'contentlayer/source-files'
 
-const computedFields: ComputedFields<'Note'> = {
+const computedFields: ComputedFields<'Axiom'> = {
 	slug: {
 		type: 'string',
 		resolve: (doc: Document) => {
-			const notesPrefix = 'notes/'
-			let pathWithoutPrefix = doc._raw.flattenedPath.replace(notesPrefix, '')
+			const axiomsPrefix = 'axioms/'
+			let pathWithoutPrefix = doc._raw.flattenedPath.replace(axiomsPrefix, '')
 			let pathParts = pathWithoutPrefix.split('/')
 			pathParts.pop() // use .shift() to remove the first "note-name"
 			pathWithoutPrefix = pathParts.join('/')
@@ -25,7 +25,7 @@ const computedFields: ComputedFields<'Note'> = {
 			image: doc.image
 				? `https://hasin.vercel.app//${doc.image}`
 				: `https://hasin.vercel.app//og?title=${doc.title}`,
-			url: `https://hasin.vercel.app//note/${doc._raw.flattenedPath}`,
+			url: `https://hasin.vercel.app//axiom/${doc._raw.flattenedPath}`,
 			author: {
 				'@type': 'Person',
 				name: 'Hasin Raiyan',
@@ -34,9 +34,9 @@ const computedFields: ComputedFields<'Note'> = {
 	},
 }
 
-export const Note = defineDocumentType(() => ({
-	name: 'Note',
-	filePathPattern: `content/notes/**/*.mdx`,
+export const Axiom = defineDocumentType(() => ({
+	name: 'Axiom',
+	filePathPattern: `content/axioms/**/*.mdx`,
 	contentType: 'mdx',
 	fields: {
 		title: {

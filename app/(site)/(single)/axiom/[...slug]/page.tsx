@@ -1,8 +1,8 @@
-import { allNotes } from '@/.contentlayer/generated'
+import { allAxioms } from '@/.contentlayer/generated'
 import NoteWrapper from '@/app/_components/animate/wrapper'
 import { BackToTop } from '@/app/_components/back-to-top'
 import { Mdx } from '@/app/_components/mdx'
-import { ShareNote } from '@/app/_components/note/share-note'
+
 import { generateMeta, getOgImage } from '@/lib/meta'
 import { formatDate } from '@/lib/utils/date'
 import { getNoteLenghtIcon } from '@/lib/utils/note-length'
@@ -16,21 +16,21 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const slug = params.slug[0]
 
-	const note = allNotes.find((doc) => doc.slug === slug)
+	const axiom = allAxioms.find((doc) => doc.slug === slug)
 
-	if (!note) {
+	if (!axiom) {
 		return {
 			title: '404 — Not Found',
 		}
 	}
 
-	const { title, summary: description, publishedAt: publishedTime } = note
+	const { title, summary: description, publishedAt: publishedTime } = axiom
 
 	const ogImage = getOgImage(title, description, {
 		openGraph: {
 			type: 'article',
 			publishedTime,
-			url: `https://hasin.vercel.app//note/${slug}`,
+			url: `https://hasin.vercel.app/axiom/${slug}`,
 		},
 	})
 
@@ -44,13 +44,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export const dynamic = 'force-static'
 
 export default function Page({ params }: Props) {
-	const note = allNotes.find((doc) => doc.slug === params.slug[0])
+	const axiom = allAxioms.find((doc) => doc.slug === params.slug[0])
 
-	if (!note) {
+	if (!axiom) {
 		notFound()
 	}
 
-	const formattedDate = formatDate(note.publishedAt)
+	const formattedDate = formatDate(axiom.publishedAt)
 
 	return (
 		<NoteWrapper backTo='/notes'>
@@ -58,26 +58,26 @@ export default function Page({ params }: Props) {
 				type='application/ld+json'
 				suppressHydrationWarning
 				dangerouslySetInnerHTML={{
-					__html: JSON.stringify(note.structuredData),
+					__html: JSON.stringify(axiom.structuredData),
 				}}></script>
 			<div></div>
 			<h2 className='text-h2Display text-center max-w-lg mx-auto'>
-				{note.title}
+				{axiom.title}
 			</h2>
 			<div className='flex items-center justify-center mt-m text-link text-secondary gap-[7px]'>
 				<span>
-					<time title={note.publishedAt} dateTime={note.publishedAt}>
+					<time title={axiom.publishedAt} dateTime={axiom.publishedAt}>
 						{formattedDate}
 					</time>
 				</span>
 				<span>•</span>
 				<span className='flex items-center gap-[5px]'>
-					{getNoteLenghtIcon(note.length)}
-					<p>{note.length}</p>
+					{getNoteLenghtIcon(axiom.length)}
+					<p>{axiom.length}</p>
 				</span>
 			</div>
-			<Mdx code={note.body.code} />
-			<ShareNote noteSlug={note.slug} />
+			<Mdx code={axiom.body.code} />
+			
 			<BackToTop />
 		</NoteWrapper>
 	)

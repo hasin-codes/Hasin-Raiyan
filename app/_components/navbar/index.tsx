@@ -46,6 +46,11 @@ const Navbar = () => {
 				href: 'notes',
 				label: 'Blogs',
 			},
+			{
+				href: 'axioms',
+				label: 'My Philosophy',
+			},
+
 		]
 	}, [])
 

@@ -5,12 +5,12 @@ import LinkIcon from '../icons/LinkIcon'
 import LinkedinIcon from '../icons/LinkedIcon'
 import TwitterIcon from '../icons/TwitterIcon'
 
-interface ShareNoteProps {
-	noteSlug: string
+interface ShareAxiomProps {
+	axiomSlug: string
 }
 
-export const ShareNote: React.FC<ShareNoteProps> = ({ noteSlug }) => {
-	const link = `https://hasin.vercel.app//note/${noteSlug}`
+export const ShareAxiom: React.FC<ShareAxiomProps> = ({ axiomSlug }) => {
+	const link = `https://hasin.vercel.app//axioms/${axiomSlug}`
 	const copyCurrentLink = () => {
 		navigator.clipboard.writeText(link)
 	}
