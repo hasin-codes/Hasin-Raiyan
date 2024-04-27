@@ -10,7 +10,7 @@ interface ShareNoteProps {
 }
 
 export const ShareNote: React.FC<ShareNoteProps> = ({ noteSlug }) => {
-	const link = `https://hasin.vercel.app//note/${noteSlug}`
+	const link = `https://www.hasinraiyan.com//note/${noteSlug}`
 	const copyCurrentLink = () => {
 		navigator.clipboard.writeText(link)
 	}

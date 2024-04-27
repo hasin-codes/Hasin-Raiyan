@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
 			userAgent: '*',
 			allow: '/',
 		},
-		sitemap: 'https://hasin.vercel.app//sitemap.xml',
-		host: 'https://hasin.vercel.app',
+		sitemap: 'https://www.hasinraiyan.com//sitemap.xml',
+		host: 'https://www.hasinraiyan.com',
 	}
 }

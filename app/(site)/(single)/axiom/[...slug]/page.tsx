@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		openGraph: {
 			type: 'article',
 			publishedTime,
-			url: `https://hasin.vercel.app/axiom/${slug}`,
+			url: `https://www.hasinraiyan.com/axiom/${slug}`,
 		},
 	})
 

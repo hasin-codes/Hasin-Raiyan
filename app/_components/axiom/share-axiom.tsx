@@ -10,7 +10,7 @@ interface ShareAxiomProps {
 }
 
 export const ShareAxiom: React.FC<ShareAxiomProps> = ({ axiomSlug }) => {
-	const link = `https://hasin.vercel.app//axioms/${axiomSlug}`
+	const link = `https://www.hasinraiyan.com//axioms/${axiomSlug}`
 	const copyCurrentLink = () => {
 		navigator.clipboard.writeText(link)
 	}

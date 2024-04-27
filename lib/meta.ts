@@ -7,7 +7,7 @@ const domain = `hasin.vercel.app`
 const twitter = `@hasin_codes`
 const meta = `Frontend Developer`
 const site = `https://${domain}`
-const ogUrl = IsDev ? 'https://hasin.vercel.app' : 'https://hasin.vercel.app'
+const ogUrl = IsDev ? 'https://www.hasinraiyan.com' : 'https://www.hasinraiyan.com'
 export const keywords = [
 	'hasin',
 	'Hasin Raiyan',
@@ -59,7 +59,7 @@ export const seo: Metadata = {
 	title: title + ' — ' + meta,
 	description,
 	...getOgImage(title + ' — ' + meta, description),
-	metadataBase: new URL('https://hasin.vercel.app'),
+	metadataBase: new URL('https://www.hasinraiyan.com'),
 	icons: {
 		icon: '/favicon.ico',
 	},
