@@ -10,7 +10,7 @@ const HeartIcon = (props: SVGProps<SVGSVGElement>) => (
 		height='1.5em'
 		{...props}>
 		<path
-			stroke='#6c564f'
+			stroke='#4f576c'
 			strokeLinecap='round'
 			strokeLinejoin='round'
 			strokeWidth={2}

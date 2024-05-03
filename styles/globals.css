@@ -14,7 +14,7 @@
 		/* Colors */
 		--background: hsl(0, 24%, 96%);
 		--foreground: hsl(216, 28%, 7%);
-		--secondary: #6c564f;
+		--secondary: #4f576c;
 		--border: transparent;
 		--nav-link-highlight: rgb(255, 255, 255);
 		--nav-link-bg: rgba(0, 0, 0, 0.04);
@@ -92,14 +92,14 @@
 		/* Colors */ 
 		--background: hsl(214, 28%, 5%);
 		--foreground: hsl(0, 0%, 83%);
-		--secondary: #b6a898;
-		--border: rgb(61, 54, 48);
-		--nav-link-highlight: rgb(45, 41, 33);
-		--nav-link-bg: hsla(13, 22%, 8%, 0.6);
+		--secondary: #98a1b6;
+		--border: rgb(48, 54, 61);
+		--nav-link-highlight: rgb(33, 38, 45);
+		--nav-link-bg: hsla(216, 24%, 8%, 0.6);
 
 		/* Shadows */
-		--link: rgb(61, 53, 48) 0px 0px 0px 2px;
-		--link-hover: rgb(61, 53, 48) 0px 0px 0px 5px;
+		--link: rgb(48, 54, 61) 0px 0px 0px 2px;
+		--link-hover: rgb(48, 54, 61) 0px 0px 0px 5px;
 
 		/* Spacings */
 		--top-navbar-height: 136px;

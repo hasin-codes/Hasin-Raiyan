@@ -22,13 +22,13 @@ code[data-line-numbers-max-digits='3'] > [data-line]::before {
 }
 
 [data-rehype-pretty-code-fragment] .line--highlighted {
-  @apply bg-[#d0a288] bg-opacity-10 border-l-4 border-[#d0a288] pl-0;
+  @apply bg-[#88C0D0] bg-opacity-10 border-l-4 border-[#88C0D0] pl-0;
 }
 [data-rehype-pretty-code-fragment] .line-highlighted span {
   @apply relative;
 }
 [data-rehype-pretty-code-fragment] .word--highlighted {
-  @apply rounded-md bg-[#d0a288] bg-opacity-30 p-1;
+  @apply rounded-md bg-[#88C0D0] bg-opacity-30 p-1;
 }
 [data-rehype-pretty-code-title] {
   @apply px-4 py-3 font-mono text-xs font-medium border rounded-t-lg text-neutral-200 border-[#333333] bg-[#1c1c1c];
@@ -154,26 +154,26 @@ code[data-line-numbers-max-digits='3'] > [data-line]::before {
 /* the muted gray is really inaccessible in light mode, so we have a special case for light mode */
 .light .prose callout-muted,
 .light .prose callout-muted ol > li:before {
-  color: #5e4b4b;
+  color: #4c4b5e;
 }
 .light .prose callout-muted:before {
-  background: #4d3c3c;
+  background: #3c3e4d;
 }
 
 .prose callout-muted,
 .prose callout-muted ol > li:before {
-  color: #c3b9b9;
+  color: #b9b9c3;
 }
 .prose callout-muted:before {
-  background: #4d3c3c;
+  background: #3c3e4d;
 }
 
 .prose callout-info,
 .prose callout-info ol > li:before {
-  color: #d0a288;
+  color: #88C0D0;
 }
 .prose callout-info:before {
-  background: #d0a288;
+  background: #88C0D0;
 }
 
 .prose callout-danger,
