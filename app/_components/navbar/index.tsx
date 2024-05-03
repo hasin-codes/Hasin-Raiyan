@@ -48,7 +48,7 @@ const Navbar = () => {
 			},
 			{
 				href: 'axioms',
-				label: 'My Philosophy',
+				label: 'Discover Me',
 			},
 
 		]
