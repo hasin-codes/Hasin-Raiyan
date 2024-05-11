@@ -1,0 +1,92 @@
+---
+type: Note
+title: 'The Fundamentals of AI'
+summary: 'Unlocking the Magic Behind Machine Intelligence'
+publishedAt: 2024-05-11
+length: Long
+image: go
+---
+
+---
+Demystifying AI
+---
+Artificial intelligence (AI) refers to any technique that enables machines to mimic human behavior. We program machines using code, and within this code, we have tools like "if" and "for" loops. While these tools can be used to create simple AI-like behaviors, they have limitations.
+Imagine a self-flying airplane programmed with "if-else" statements to adjust altitude when approaching mountains, change direction to avoid other aircraft, or maintain speed during turbulence. However, this approach falls short when multiple scenarios happen simultaneously. For instance, if there's a sudden change in weather, a flock of birds in the flight path, and a mechanical issue all at once, the system might struggle to react appropriately.Pre-programmed rules can't handle such complexities.
+This is where machine learning comes in. Unlike pre-programmed rules, machine learning allows machines to learn on their own. Instead of explicitly telling the machine what to do in every situation, we provide it with data and let it discover patterns. For Example: Identifying Birds vs. Airplanes
+To teach a machine to distinguish birds from airplanes in images, we'd use measurable features like wing shape, size, and movement patterns. The machine would analyze vast amounts of bird and airplane images, learning to identify these key differences.
+While machine learning offers a significant leap, it still relies on humans to provide the data and define the features which has huge cost and time consumption. Here comes Deep learning, a subset of machine learning, takes inspiration from the human brain.
+Instead of providing explicit rules for every situation, we can train a deep learning model with millions of images and videos of various flight scenarios. The model would learn to recognize objects, weather conditions, and other factors, enabling it to make decisions like steering, acceleration, and braking in real-time.
+The foundation of deep learning lies in neural networks, which are loosely inspired by the structure of the human brain. Neural networks consist of interconnected nodes (neurons) that process information in layers.
+For computers to process images or any data, they need to be converted into numbers. An image can be represented as a grid of pixels, each with a specific color value. A 32x32 image would have 1024 pixels, with each pixel's color value determining its contribution to the overall image.
+However, relying solely on color values wouldn't be very efficient. Similar to how our brains process visual information, a neural network would have multiple layers:
+Input Layer: Receives the converted pixel values (1024 in our example).
+Hidden Layers: These intermediate layers perform complex calculations, extracting progressively higher-level features from the data. Imagine neurons in these layers becoming more sensitive to specific shapes or patterns as they process data.
+Output Layer: Makes a final decision based on the processed information. In our bird vs. airplane example, there might be two neurons: one activated for birds and the other for airplanes.
+So will it understand data? There comes training. Just like a child learns to identify fruits by seeing them repeatedly and hearing its name a lot of time, a neural network learns through exposure to vast amounts of data. We train the network with millions of images of birds and airplanes, allowing it to adjust its internal connections and make increasingly accurate classifications.
+This process doesn't involve explicitly telling the network which neuron to turn on or off. Instead, the network learns through trial and error, adjusting its connections based on the feedback it receives during training. Over time, it becomes skilled at recognizing patterns and making decisions in new situations.
+What is training?
+Imagine a giant network of interconnected circles. These circles, called neurons, are the building blocks of a neural network. Each neuron is connected to others in the next layer by a pathway. Here's the key: each connection has a special value called a weight.
+Think of these weights as regulators you can adjust. By turning the regulators (weights), we influence how the network processes information. Now, here's the magic: during training, the network adjusts these weights automatically. It's like trying different regulator settings to see which ones produce the best results.
+Let's consider a simple example. We have an input with 1,000 values, a hidden layer with 100 neurons, and an output layer with 2 values (like identifying an image as a cat or a dog). That translates to a whopping 100,200 regulators (weights) to adjust!
+This is why training a neural network for complex tasks can be incredibly demanding. You've probably heard terms like "175 billion parameters" for models like ChatGPT or "70 billion" for LLMA. These numbers represent the total number of weights these models were trained on. It's not like a programmer manually adjusts billions of regulators – the training process happens automatically.
+But here's the good news: in 2024, we have smarter ways to train existing models for specific needs. This means you don't always have to start from scratch. Imagine taking a powerful model like LLMA and fine-tuning it based on your own data to make it even better suited to your specific task.
+Deep learing can be further categorized into two main approaches: discriminative and generative.
+Discriminative AI: Making Predictions from Data
+Think of discriminative AI as a master detective. It analyzes input data, like an image, and predicts an outcome. For example, imagine showing the AI a picture and asking, "Is this Elon Musk?" Discriminative AI would analyze the image and tell you if it's Elon or not.
+This type of AI excels at various tasks, including:
+Object Detection: Identifying and pinpointing objects in images. Think of tagging your friends in photos – that's object detection in action!
+Image Segmentation: Going beyond detection, this creates a "mask" around an object, outlining its exact shape and boundaries. Imagine coloring only the cat in a picture – that's image segmentation.
+
+Generative AI: Creating New Worlds
+On the other hand, is like a creative artist. It draws inspiration from existing data to generate entirely new content we've never seen before.  Imagine asking an artist to paint a picture of "Elon Musk eating a mango in RAJCPSC's field."  Generative AI can create images, text, audio, or even other outputs based on its knowledge. So, while discriminative AI excels at solving mysteries based on clues (data), generative AI focuses on conjuring up new possibilities, pushing the boundaries of what exists.
+## Page 4: Unveiling the Magic of Generative AI
+
+Generative AI, the new kid on the block in the AI world, has captured our imagination with its potential to create entirely new content. Let's peek under the hood and explore some of the most fascinating generative AI models:
+
+1. Generative Adversarial Networks (GANs): A Competitive Duo
+Imagine two artists locked in a friendly competition. In the realm of GANs, we have two neural networks:
+Generator: This creative force strives to produce brand new, realistic content, like images or text.
+Discriminator: The discerning critic, this network aims to assess the generated content and determine if it's convincingly real based on the training data.
+Through this continuous competition, the generator learns to create increasingly realistic outputs, while the discriminator becomes a sharper critic. This push-and-pull dynamic leads to impressive results in generating high-quality content.
+2. Variational Autoencoders (VAEs): Masters of Mimicry
+VAEs operate under a different principle. They excel at creating new data that closely resembles the input data. Think of them as skilled copycats. These models are particularly adept at tasks like:
+Image or video upscaling: Taking a low-resolution image and generating a high-resolution version that retains details.
+Generating new, realistic images: Imagine creating new photos with similar styles or themes based on existing ones. VAEs excel at this kind of creative mimicry.
+3. Diffusion Models: From Noise to Art
+Diffusion models take a unique approach. They start with a pool of random noise and gradually transform it, step by step, into a meaningful image. This process is akin to taking a blurry picture and progressively sharpening it until a clear image emerges.
+The beauty of diffusion models lies in their ability to generate highly diverse images. By controlling the steps in the noise-to-art transformation, we can create a wide range of artistic styles and content.
+4. Transformers: The Power of Parallel Processing for Language
+While not strictly a generative model, transformers play a crucial role in generating human-like text. Unlike Recurrent Neural Networks (RNNs) that process information one word at a time (which can be slow), transformers can analyze entire sentences or paragraphs simultaneously.
+This parallel processing ability allows transformers to capture the complex relationships between words, leading to highly coherent and engaging text generation. This is why transformers are the backbone of powerful language models like ChatGPT, which can hold natural conversations or generate creative text formats.
+Now we will understand some common words in ai field
+Training Data: 
+Imagine a child learning colors. They see pictures, hear words, and receive guidance. This rich experience is like training data for AI.
+It's the massive amount of information used to teach AI models specific tasks. This data can be images, text, audio, or video. Think of millions of pictures for facial recognition or gigabytes of text for language translation. We fed these to ai to get better and acqurate responses.
+Input:
+Think of input as the new information you feed the trained AI model. This can be anything it's designed to handle – an image for facial recognition, a sentence for translation, or spoken words for a voice assistant.
+Imagine showing a picture of your dog to a trained image recognition model. The model analyzes the input (the picture) using its knowledge from training data (millions of pictures of dogs and other objects). Based on this analysis, it provides an output –  identifying your furry friend as a dog. In wi we refet inputs and pormpts. Output is refered as response.
+Token: AI models need data in a format they can understand. We see a cat, but an AI model sees a jumble of numbers (pixels). Tokenization bridges this gap by converting words or other data points into numbers.
+Here's how the conversion works: We break down the input (text) into tokens, which are individual words in this case. For example, the sentence "The red car is parked" would be broken down into four tokens: "The," "red," "car," and "parked." Numerical Representation: Each unique token is assigned a unique numerical value. This mapping is called a vocabulary. Imagine a dictionary where each word has a corresponding number. Feeding the AI. The tokenized sentence is then fed to the AI model as a sequence of numbers. It's like providing a coded message that the AI can understand and analyze. Real-World Tokenization Examples: The quick brown fox jumps over the lazy dog. Tokenization: "The," "quick," "brown," "fox," "jumps," "over," "lazy," "dog." (8 tokens). The - 1 ,quick - 2, brown - 3, dog - 20. Sending to AI: The AI model receives the sentence as a sequence of numbers: 1, 2, 3, 4, 5, 6, 7, 20.
+About tokens: Imagine a conversation with a friend – you can chat back and forth freely. Now, picture an AI trying to have that same conversation. Here's where things get interesting: AI models have a specific memory, measured in tokens (think of tokens as bite-sized pieces of information). Some models, like ChatGPT, have a context window of 128,000 tokens for remembering past conversation, while their output might be limited to 4,096 tokens. This limit varies across models – some might have 8,000 tokens of memory, while others can hold onto 32,000. Think of it like a conversation with varying degrees of short-term memory.
+Now, here's the cool part: this token limit affects what you can feed the AI. Take the Harry Potter series – with 77,000 words, it would fit comfortably within a model like ChatGPT 4. You could throw the entire series at it and ask questions about characters, plot points, or even have the AI write a new story set in the wizarding world! But with models like Gemini, which boast a million-token capacity, the possibilities expand. Imagine feeding the entire Harry Potter universe, including all seven books and supplementary content, into one model! It's like giving your AI a vast library of knowledge to draw from, opening doors for even more complex interactions and creative outputs. This is the power of ever-increasing token limits in AI models, paving the way for richer and more immersive experiences. 
+## Unveiling the Knobs of AI: Parameters, Embeddings, and More
+Lets understand Parameters
+Imagine the regulators on a complex machine. These regulators represent the model's parameters, which are essentially adjustable numbers that determine how the model processes information. By adjusting these parameters during training, we influence the model's behavior and guide it towards better performance.
+Temperature: This knob controls the randomness of the model's output. A high temperature leads to more creative but potentially less accurate results, while a low temperature produces safer but potentially repetitive outputs. Think of it like adjusting the "spice" level in your writing – a little randomness can add creativity, but too much can lead to incoherence.
+Guidance Scale: This knob controls how much the model relies on the prompt or instructions you provide. A high guidance scale leads to outputs that closely follow the prompt, while a low scale allows the model more freedom to be creative. Imagine giving your AI a story prompt – a high guidance scale ensures it stays on track, while a low scale might lead to unexpected twists and turns in the narrative. 
+Fine-tuning: This technique allows us to take a pre-trained model with a vast knowledge base and specialize it for a specific task. Think of it like taking a skilled chef and teaching them the intricacies of a particular cuisine. By fine-tuning with relevant data, we can significantly improve the model's performance on a specific task.
+Prompt Engineering: This involves crafting the best possible instructions for the AI model. It's like giving clear directions to a friend – the better the instructions, the better the outcome. By carefully crafting prompts, we can steer the model towards the desired output and unlock its full potential. 
+Embeddings: Imagine a complex map where words are represented as unique locations. Embeddings are like tiny digital maps that capture the relationships between words. Each word is assigned a vector (a list of numbers) that encodes its meaning and how it relates to other words. For example, "happy" and "joyful" might have similar vectors, while "happy" and "sad" would have very different ones. These embeddings allow AI models to understand the nuances of language and generate more meaningful outputs.
+How to Get the Most Out of Your AI Interactions
+1. Define Your Persona:
+The first step is to identify the role you want the AI to play in your interaction. Do you need a helpful assistant, a creative writer, or a knowledgeable expert? Clearly defining the persona helps you tailor your prompts and expectations accordingly.
+2. Provide Specific Details: 
+The more details you provide, the better the AI can understand your request. Imagine asking your friend for help with a recipe. Saying "I need something sweet" is less helpful than saying "Can you suggest a chocolate chip cookie recipe with gluten-free options?"
+3. Follow a Step-by-Step Approach: 
+For complex tasks, breaking your request down into smaller steps can lead to better results. Instead of asking the AI to write an entire novel, consider starting with a character profile or a specific scene. 
+4. Leverage References: 
+If you have a particular style or format in mind, provide references to help guide the AI. This could be a link to a website, a specific writing style guide, or even an example of what you're looking for.
+5. Utilize Delimiters: 
+Delimiters are like punctuation marks for AI instructions. These special symbols can help separate different parts of your prompt and ensure the AI understands your intent. For example, some AI models use brackets [] to indicate specific instructions or desired outputs.
+
+Part 2 Dropping Next Week
