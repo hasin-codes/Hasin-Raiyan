@@ -16,9 +16,9 @@ export default function Home() {
 				</h1>
 			</NodeAnimate>
 			<NodeAnimate delay={0.2} className='relative max-w-3xl m-auto px-6'>
-				<p className='text-center text-body text-secondary'>
-				I love building visually compelling and intuitive web experiences, leveraging original concepts and proven development practices across the stack.
-				</p>
+			<p className='text-center text-body text-secondary'>
+I build web applications that prioritize clear user interfaces and solid technical foundations, working across frontend and wrapper systems.
+</p>
 			</NodeAnimate>
 			<NodeAnimate
 				delay={0.4}

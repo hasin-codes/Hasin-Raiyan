@@ -39,7 +39,7 @@ export default function AboutPage() {
 
 			<h2 className='text-h2 leading-[110%] text-secondary text-center'>
 
-			I build web applications and design interfaces, integrating AI tools to solve real problems and improve user experiences.
+			I build web applications and UI, integrating AI tools to solve real problems and improve user experiences.
 
 			</h2>
 
