@@ -73,10 +73,9 @@ export default function AboutPage() {
 				delay={0.8}
 				as='section'
 				className='max-w-5xl m-auto mt-xl px-l'>
-				<p className='text-body leading-[160%] text-secondary'>
-				Outside of coding, my downtime crackles with ambition. Whether channeling Maldini&apos;s defensive prowess on the pitch or fueling my Formula One passion to inspire Bangladeshi fans, these experiences ignite my spirit. My heart bleeds Rossoneri for AC Milan, and the flavors and history of Italy call to me. While my academics might not boast brilliance, my curiosity and entrepreneurial spirit drive me secretly running a thriving 7 figure project .
-
-				</p>
+<p className='text-body leading-[160%] text-secondary'>
+	Beyond software development, I maintain several active interests that drive my problem-solving approach. I play football regularly, follow Formula One racing, and support AC Milan. I'm currently running multiple side projects focused on identifying practical solutions to everyday problems. While my academic record is solid rather than exceptional, I consistently seek out learning opportunities and enjoy building things that make processes more efficient.
+</p>
 			</NodeAnimate>
 		</div>
 	)
