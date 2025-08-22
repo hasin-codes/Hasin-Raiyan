@@ -31,19 +31,29 @@ export default function AboutPage() {
 					</span>
 				</h1>
 			</NodeAnimate>
+<NodeAnimate delay={0.2} className='relative container max-w-4xl m-auto'>
 
-			<NodeAnimate delay={0.2} className='relative container max-w-4xl m-auto'>
-				<div className='flex justify-around'>
-					<div className=' mt-m'>
-						<h2 className='text-h2 leading-[110%] text-secondary text-center'>
-						I&apos;m a web dev & UI designer with a passion for leveraging AI to create innovative and user-centric digital experiences.
-						</h2>
-						<p className='text-body text-secondary mt-xxs text-center'>
-						In my 3 years as a tech enthusiast, I&apos;ve dived into diverse areas like coding, UI, robotics, drones, and AI/ML.  Now, I&apos;m channeling that passion into delivering exceptional front-end development and UI/UX, with the ability to tackle full-stack projects as well.
-						</p>
-					</div>
-				</div>
-			</NodeAnimate>
+	<div className='flex justify-around'>
+
+		<div className=' mt-m'>
+
+			<h2 className='text-h2 leading-[110%] text-secondary text-center'>
+
+			I build web applications and design interfaces, integrating AI tools to solve real problems and improve user experiences.
+
+			</h2>
+
+			<p className='text-body text-secondary mt-xxs text-center'>
+
+			Over three years of working with code, I've explored frontend development & UI design, robotics, and machine learning. I focus on creating functional, well-designed interfaces while handling full-stack development when projects require it.
+
+			</p>
+
+		</div>
+
+	</div>
+
+</NodeAnimate>
 
 			<NodeAnimate
 				delay={0.6}
